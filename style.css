@@ -1,0 +1,40 @@
+body {
+    background-color: hsl(220, 15%, 55%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
+}
+
+.qr-code {
+    max-width: 300px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+
+}
+
+.info {
+    padding: 20px;
+}
+
+h3 {
+    font-size: 23px;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    font-size: 16px;
+    color: hsl(212, 45%, 89%);
+}
